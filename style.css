@@ -178,3 +178,11 @@ img{
 .py-lg{
     padding:40px 0;
 }
+
+/* media quary */
+
+@media (max-width: 960px){
+    .text-x1{
+        font-size: 30px;
+    }
+}
