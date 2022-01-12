@@ -185,4 +185,7 @@ img{
     .text-x1{
         font-size: 30px;
     }
+    .text-md{
+        font-size: 19px;
+    }
 }
