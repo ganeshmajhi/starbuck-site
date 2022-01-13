@@ -190,7 +190,7 @@ section a {
 
 /* media quary */
 
-@media (max-width: 960px){
+@media(max-width: 960px){
     .text-x1{
         font-size: 30px;
     }
@@ -198,7 +198,7 @@ section a {
         font-size: 19px;
     }
 }
-@media (min-width: 1440px){
+@media(min-width: 1440px){
     .box{
         max-width: 1440px;
         margin-right: auto;
