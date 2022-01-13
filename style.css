@@ -93,6 +93,12 @@ section a {
     max-width: 700px;
     margin: 0 auto;
 }
+.box-text{
+    max-width: 500px;
+    text-align: left;
+    justify-self: center;
+    margin: auto;
+}
 /* Buttons */
 
 .btn{
@@ -119,7 +125,7 @@ section a {
     background-color: #000;
     color: #fff;
 }
-.btn-dark-outline:hover{
+.btn-dark-outline:hover, .btn-light-outline:hover{
     background-color: rgba(0, 0, 0, 0.06);
 }
 .btn-dark:hover{
