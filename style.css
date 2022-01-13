@@ -187,7 +187,17 @@ section a {
 .py-lg{
     padding:40px 0;
 }
+/* grid system */
 
+.grid-col-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:2rem;
+    align-items: center;
+}
+.grid-reversed :first-child{
+    order:2;
+}
 /* media quary */
 
 @media(max-width: 960px){
