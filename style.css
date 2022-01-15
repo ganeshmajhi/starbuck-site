@@ -243,6 +243,7 @@ section a {
     border: none;
     z-index: 10;
     transition: all 0.3s;
+    display: none;
 }
 .hamburger-top,
 .hamburger-middle,
@@ -262,6 +263,15 @@ section a {
 }
 .hamburger-bottom{
     transform: translateY(14px);
+}
+.open .hamburger-top{
+    transform: rotate(45deg) translateY(6px) translateX(6px)
+}
+.open .hamburger-middle{
+    display: none;
+}
+.open .hamburger-bottom{
+    transform: rotate(-45deg) translateY(6px) translateX(-6px)
 }
 /* media quary */
 
@@ -287,6 +297,9 @@ section a {
     .navbar .navbar-nav-left,
     .navbar .navbar-nav-right{
         display: none;
+    }
+    .hamburger{
+        display: block;
     }
 }
 @media(min-width: 1440px){
