@@ -233,6 +233,36 @@ section a {
 .grid-reversed :first-child{
     order:2;
 }
+/* Hamburger-menu items  */
+.hamburger{
+    cursor: pointer;
+    width:24px;
+    height:24px;
+    position:relative;
+    background: none;
+    border: none;
+    z-index: 10;
+    transition: all 0.3s;
+}
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom{
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 24px;
+    height: 2px;
+    background: #000;
+    transform: rotate(0);
+    transition: all 0.5s;
+}
+.hamburger-middle{
+    transform: translateY(7px);
+}
+.hamburger-bottom{
+    transform: translateY(14px);
+}
 /* media quary */
 
 @media(max-width: 960px){
