@@ -1,3 +1,3 @@
-# https://ganeshmajhi.github.io/starbuck-site/
+# StarBucks Clone
 
-> StarBUcks Clone
+[Visit Site](https://ganeshmajhi.github.io/starbuck-site)
